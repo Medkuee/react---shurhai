@@ -1,0 +1,44 @@
+.header {
+  background-color: #cc0000;
+  font-size: 1rem;
+  letter-spacing: -0.1px;
+  line-height: 150%;
+  font-family: "Roboto", sans-serif;
+}
+.header__header {
+  justify-self: center;
+  max-width: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10.5vh;
+  color: #fff;
+  margin: auto;
+}
+#logo {
+  width: 300px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#weather {
+  width: 25px;
+}
+.header__weather {
+  text-align: left;
+  line-height: 90%;
+  margin: 0 10px;
+}
+.header__day {
+  text-align: right;
+}
+.header__currency {
+  text-align: right;
+}
+.header__align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

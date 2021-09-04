@@ -1,0 +1,24 @@
+.breaker {
+  height: 5.5vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.home {
+  background-color: #efefef;
+}
+.home__top {
+  max-width: 1320px;
+  max-height: 480px;
+  display: flex;
+  margin: auto;
+}
+.home__second {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home__secondy {
+  display: flex;
+}
+.home__secondSpan {
+  font-weight: bold;
+}

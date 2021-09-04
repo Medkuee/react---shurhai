@@ -1,0 +1,39 @@
+.home__imageContent {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  left: 5%;
+  bottom: 20%;
+}
+.home__title {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 0.75em;
+}
+.home__header {
+  font-size: 24px;
+  font-weight: 600 !important;
+}
+.home__first > img {
+  position: relative;
+}
+.home__image {
+  width: 100%;
+}
+.home__image__sm {
+  width: 100%;
+  object-fit: cover;
+}
+.home__first {
+  width: 640px;
+  margin: 12px;
+}
+.home__first__sm {
+  width: 310px;
+  height: 180px;
+  margin: 12px;
+}
+.home__image {
+  width: 80%;
+  margin-top: -20px;
+  margin-left: 30px;
+}

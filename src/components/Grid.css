@@ -1,0 +1,39 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: "Fira Sans", sans-serif;
+  background-color: white;
+}
+.grid__title {
+  font-size: 1.7rem;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #292229;
+  cursor: pointer;
+}
+.grid__info,
+.grid > span {
+  color: #999;
+}
+.grid__info {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem !important;
+}
+.grid__info__span {
+  display: flex;
+  align-items: center;
+}
+.margin {
+  margin: 0 10px;
+}
+
+.grid > span {
+  line-height: 150%;
+}
+.grid__icon {
+  font-size: 0.8rem !important;
+}

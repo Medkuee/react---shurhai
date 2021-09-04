@@ -1,0 +1,18 @@
+.news__block {
+  max-width: 1320px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+.news__block > h1 {
+  margin-top: 20px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.news__news {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news {
+  background-color: white;
+}
